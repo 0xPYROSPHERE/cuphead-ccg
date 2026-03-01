@@ -53,7 +53,6 @@ b5.Game.LoadScene = function(id, stopMusic, fadeOutMusic, loadingScreenPropertie
 		this.SceneLoader.fadeOutMusic = fadeOutMusic;
 		
 		console.log('Load scene: '+id);
-		console.log('test');
 	  id = (isNaN(id) ? id : b5.Game.SceneList[id]);//.replace(/\.scene/g, '');
 
 		this.SceneLoader.sceneId = id;
@@ -168,7 +167,6 @@ b5.Game.LoadScene = function(id, stopMusic, fadeOutMusic, loadingScreenPropertie
 			document.getElementById('CurrentScene') && document.head.removeChild(document.getElementById('CurrentScene'));
 
 			var s = b5.Utils.loadJS(sceneMain.data.resourcePath + 'level.js');
-			console.log(s);
 			s.id = 'CurrentScene';
 			s.onerror = function() {
 				app.texture_state = "SCENE NOT FOUND";
