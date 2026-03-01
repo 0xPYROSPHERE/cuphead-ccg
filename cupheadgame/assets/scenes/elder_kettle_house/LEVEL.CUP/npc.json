@@ -3,7 +3,7 @@
 		"glyphTitle": "",
 		"playerTalkPosition": 183,
 		"playerFacing": 1,
-		"script": "scripts/ek.cup",
+		"script": "scripts/ek.js",
 		"dialogs": [
 			{ 
 				"texts": ["ek_dlg1","ek_dlg2","ek_dlg3","ek_dlg4","ek_dlg5","ek_dlg6","ek_dlg7","ek_dlg8","ek_dlg9","ek_dlg10","ek_dlg11"],
