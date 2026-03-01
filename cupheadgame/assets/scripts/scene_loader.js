@@ -53,6 +53,7 @@ b5.Game.LoadScene = function(id, stopMusic, fadeOutMusic, loadingScreenPropertie
 		this.SceneLoader.fadeOutMusic = fadeOutMusic;
 		
 		console.log('Load scene: '+id);
+		console.log('test');
 	  id = (isNaN(id) ? id : b5.Game.SceneList[id]);//.replace(/\.scene/g, '');
 
 		this.SceneLoader.sceneId = id;
