@@ -360,7 +360,7 @@ let scr = "",
 res = null;
 
 scene_GUI.addResource(
-	res = new b5.Raw(name+'PKG', b5.Paths.pkgs + name + '.cup', true, data => {
+	res = new b5.Raw(name+'PKG', b5.Paths.pkgs + name + '.js', true, data => {
 		scr = data;
 	},true),
 	'raw'
