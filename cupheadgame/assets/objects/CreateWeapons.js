@@ -47,7 +47,7 @@ b5.export = function(world, scene, data, game) {
 
 		//Parse events
 		var weapon = data.weapons[name];
-		new b5.Raw(name + ":WeaponScript", wpath + 'WEAPON.cup', true, wsc => {
+		new b5.Raw(name + ":WeaponScript", wpath + 'WEAPON.js', true, wsc => {
 			weapon.setupActions = Function(wsc)();
 		}, true);
 

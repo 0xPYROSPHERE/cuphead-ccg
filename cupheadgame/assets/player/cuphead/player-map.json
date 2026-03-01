@@ -23,10 +23,10 @@
 		"controllable": true
 	},
 	"components": [
-		"Movement.cup",
-		"AtlasAnimations.cup",
-		"Hitboxes.cup",
-		"Equip.cup"
+		"Movement.js",
+		"AtlasAnimations.js",
+		"Hitboxes.js",
+		"Equip.js"
 	],
 	"resources": {
 		"bitmaps": [

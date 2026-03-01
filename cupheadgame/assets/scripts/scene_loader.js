@@ -166,7 +166,7 @@ b5.Game.LoadScene = function(id, stopMusic, fadeOutMusic, loadingScreenPropertie
 			//Function(b5.File.readSync(b5.Paths.scenes + b5.Game.SceneList[id]))();
 			document.getElementById('CurrentScene') && document.head.removeChild(document.getElementById('CurrentScene'));
 
-			var s = b5.Utils.loadJS(sceneMain.data.resourcePath + 'level.scene');
+			var s = b5.Utils.loadJS(sceneMain.data.resourcePath + 'level.js');
 			s.id = 'CurrentScene';
 			s.onerror = function() {
 				app.texture_state = "SCENE NOT FOUND";

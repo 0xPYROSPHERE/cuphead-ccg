@@ -8,7 +8,7 @@ b5.export = function(world, scene, data, game) {
 	game.parseResources(resources,scene);
 		
 		//Load particles
-		var particles = Function(b5.File.readSync(b5.Paths.player + 'common_map/particles.cup'))();
+		var particles = Function(b5.File.readSync(b5.Paths.player + 'common_map/particles.js'))();
 		data.spawnPlayerParticle = function(name,fromPlayer,data) {
 			return particles[name](fromPlayer,scene,data);
 		};

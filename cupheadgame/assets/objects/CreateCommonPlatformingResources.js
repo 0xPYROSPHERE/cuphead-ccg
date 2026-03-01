@@ -10,7 +10,7 @@ b5.export = function(world, scene, data, game) {
 	game.importObject('CreateBravoFightTextsResources');
 
 	//Load particles
-	var particles = Function(b5.File.readSync(b5.Paths.sceneRes + 'common_platforming/particles.cup'))();
+	var particles = Function(b5.File.readSync(b5.Paths.sceneRes + 'common_platforming/particles.js'))();
 	data.spawnParticle = function(name, target) {
 		return particles[name](target, scene);
 	};

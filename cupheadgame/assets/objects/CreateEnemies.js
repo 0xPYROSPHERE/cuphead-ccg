@@ -2,7 +2,7 @@ b5.export = function(world, scene, data, game) {
 	var myexports = {
 	};
 	
-	var enemyScript = data.levelDataPath + 'enemy.cup';
+	var enemyScript = data.levelDataPath + 'enemy.js';
 	
 	data.enemies = Function(b5.File.readSync(enemyScript))();
 	
