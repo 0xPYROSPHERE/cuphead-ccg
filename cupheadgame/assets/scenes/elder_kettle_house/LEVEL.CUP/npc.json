@@ -26,12 +26,12 @@
 		"glyphTitle": "texts.tutorial",
 		"playerTalkPosition": false,
 		"dialogs": [],
-		"script": "scripts/tutorial.cup"
+		"script": "scripts/tutorial.js"
 	},
 	"NPC_Exit": {
 		"glyphTitle": "texts.exit",
 		"playerTalkPosition": -900,
 		"dialogs": [],
-		"script": "scripts/exit.cup"
+		"script": "scripts/exit.js"
 	}
 }
