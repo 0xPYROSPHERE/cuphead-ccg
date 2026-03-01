@@ -147,7 +147,7 @@
 		"layer": 4,
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "woodstick.cup"
+		"script": "woodstick.js"
 	},
 	{
 		"name": "rock1",
@@ -159,7 +159,7 @@
 		"layer": 4,
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "randomRock.cup"
+		"script": "randomRock.js"
 	},
 	{
 		"name": "rock2",
@@ -171,7 +171,7 @@
 		"layer": 4,
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "randomRock.cup"
+		"script": "randomRock.js"
 	},
 	{
 		"name": "rock3",
@@ -183,7 +183,7 @@
 		"layer": 4,
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "randomRock.cup"
+		"script": "randomRock.js"
 	},
 	{
 		"name": "rock4",

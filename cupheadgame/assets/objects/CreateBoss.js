@@ -2,7 +2,7 @@ b5.export = function(world, scene, data, game) {
 	var myexports = {
 	};
 	
-	var bossFile = data.levelDataPath + 'boss.cup',
+	var bossFile = data.levelDataPath + 'boss.js',
 	bossDataR = data.levelDataPath + 'bossData.json';
 	
 	data.boss = Function(b5.File.readSync(bossFile))();

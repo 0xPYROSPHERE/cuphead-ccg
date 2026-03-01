@@ -37,7 +37,7 @@ b5.export = function(world, scene, data, game) {
 
 		//Parse events
 		var charm = data.charms[charms[i]];
-		charm.setupActions = Function(b5.File.readSync(b5.Paths.player + 'charms/' + charms[i] + '/CHARM.cup'))();
+		charm.setupActions = Function(b5.File.readSync(b5.Paths.player + 'charms/' + charms[i] + '/CHARM.js'))();
 	}
 	
 	data.Charm = function(name, player) {

@@ -139,7 +139,7 @@ b5.export = function(world, scene, data, game) {
 		ply.components = {};
 		var cmps = data[player].components;
 		for (var i = 0; i < cmps.length; i++) {
-			var cmp = cmps[i].replace(".cup", '');
+			var cmp = cmps[i].replace(".js", '');
 
 			//Initialize components
 			//Get loop function as output to update them
@@ -201,7 +201,7 @@ b5.export = function(world, scene, data, game) {
 			//Start updating components
 			players[i].onTick = function() {
 				if(data[this.name]) for (var a = 0; a < data[this.name].components.length; a++) {
-					var c = this.components[data[this.name].components[a].replace('.cup', '')];
+					var c = this.components[data[this.name].components[a].replace('.js', '')];
 					c && c(this, data[this.name].flags, game.Input[this._playerInput], world, scene, game, data);
 				}
 			};

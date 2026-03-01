@@ -4,7 +4,7 @@
 		"onInteract": "action:BackToEKHouse",
 		"playerTalkPosition": false,
 		"onPlayerReachedPosition": "",
-		"script": "scripts/exitDoor.cup",
+		"script": "scripts/exitDoor.js",
 		"dialogs": []
 	}
 }

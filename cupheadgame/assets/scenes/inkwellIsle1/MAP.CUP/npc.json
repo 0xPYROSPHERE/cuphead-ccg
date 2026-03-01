@@ -1,23 +1,23 @@
 {
 	"NPC_EKHouse": {
 		"dialogs": [],
-		"script": "scripts/ek_house.cup"
+		"script": "scripts/ek_house.js"
 	},
 	"NPC_Veggies": {
 		"dialogs": [],
-		"script": "scripts/veggies.cup"
+		"script": "scripts/veggies.js"
 	},
 	"NPC_Slime": {
 		"dialogs": [],
-		"script": "scripts/slime.cup"
+		"script": "scripts/slime.js"
 	},
 	"NPC_Shop": {
 		"dialogs": [],
-		"script": "scripts/shop.cup"
+		"script": "scripts/shop.js"
 	},
 	"NPC_Mausoleum": {
 		"dialogs": [],
-		"script": "scripts/mausoleum.cup"
+		"script": "scripts/mausoleum.js"
 	},
 	"NPC_Flower": {
 		"dialogs": [
@@ -27,7 +27,7 @@
 			}
 		],
 		"cameraOffset": [-250,-50],
-		"script": "scripts/flower.cup"
+		"script": "scripts/flower.js"
 	},
 	"Minero": {
 		"dialogs": [
@@ -37,7 +37,7 @@
 			}
 		],
 		"cameraOffset": [0,-25],
-		"script": "scripts/minero.cup"
+		"script": "scripts/minero.js"
 	},
 	"NPC_DialogTest": {
 		"cameraOffset": [-100, -100],
@@ -48,10 +48,10 @@
     		"data": []
     	}
   	],
-  	"script": "scripts/dialogTest.cup"
+  	"script": "scripts/dialogTest.js"
 	},
 	"NPC_TriggerTest": {
 		"isTrigger": true,
-		"script": "scripts/triggerTest.cup"
+		"script": "scripts/triggerTest.js"
 	}
 }

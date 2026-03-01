@@ -42,7 +42,7 @@ b5.export = function(world, scene, data, game) {
 
 		//Parse events
 		var super_ = data.supers[supers[i]];
-		super_.setupActions = Function(b5.File.readSync(b5.Paths.player + 'supers/' + supers[i] + '/SUPER.cup'))();
+		super_.setupActions = Function(b5.File.readSync(b5.Paths.player + 'supers/' + supers[i] + '/SUPER.js'))();
 	}
 	
 	data.Super = function(name, player) {

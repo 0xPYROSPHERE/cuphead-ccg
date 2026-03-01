@@ -95,7 +95,7 @@
 		"layer": 0,
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "Clouds.cup"
+		"script": "Clouds.js"
 	},
 	{
 		"name": "BGTree",
