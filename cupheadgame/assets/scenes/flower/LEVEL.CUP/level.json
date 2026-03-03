@@ -79,7 +79,7 @@
 			"visible": true,
 			"layer": 5,
 			"sub_layer": 1,
-			"script": "platformSprite.cup",
+			"script": "platformSprite.js",
 			"tags": [],
 			"detectionTags": ["platform"],
 			"body": {
@@ -99,7 +99,7 @@
 			"layer": 5,
 			"sub_layer": 1,
 			"tags": [],
-			"script": "platformSprite.cup",
+			"script": "platformSprite.js",
 			"detectionTags": ["platform"],
 			"body": {
 				"friction": 1,
@@ -117,7 +117,7 @@
 			"visible": true,
 			"layer": 5,
 			"sub_layer": 1,
-			"script": "platformSprite.cup",
+			"script": "platformSprite.js",
 			"tags": [],
 			"detectionTags": ["platform"],
 			"body": {
@@ -175,7 +175,7 @@
 		"appendTo": "scene_background",
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "clouds.cup"
+		"script": "clouds.js"
 	},
 	{
 		"name": "Clouds",
@@ -188,7 +188,7 @@
 		"appendTo": "scene_background",
 		"sub_layer": 1,
 		"scale": 1,
-		"script": "clouds.cup"
+		"script": "clouds.js"
 	},
 	{
 		"name": "WaterBG",
